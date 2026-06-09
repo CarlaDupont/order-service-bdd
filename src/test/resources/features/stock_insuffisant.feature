@@ -5,4 +5,4 @@ Feature: Reject an order when stock is insufficient
     And a customer with profile "STANDARD"
     When the customer "customer@shop.com" orders 3 unit(s) of product "P004"
     Then the order is rejected
-    And the error message contains "Order accepted"
+    And the error message contains "Insufficient stock"

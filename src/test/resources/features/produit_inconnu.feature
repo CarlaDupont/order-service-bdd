@@ -5,4 +5,4 @@ Feature: Reject an order for an unknown product
     And a customer with profile "STANDARD"
     When the customer "customer@shop.com" orders 1 unit(s) of product "P999"
     Then the order is rejected
-    And the error message contains "Order accepted"
+    And the error message contains "Unknown product"

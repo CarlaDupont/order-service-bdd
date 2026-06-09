@@ -7,5 +7,5 @@ Feature: Order for a PREMIUM customer
     Then the order is accepted
     And the receipt contains product reference "P002"
     And the receipt contains quantity 3
-    And the total amount is 999.00 euros
+    And the total amount is 108.00 euros
     And the confirmation message contains "premium@shop.com"

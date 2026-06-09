@@ -7,5 +7,5 @@ Feature: Order for a STANDARD customer
     Then the order is accepted
     And the receipt contains product reference "P001"
     And the receipt contains quantity 2
-    And the total amount is 999.00 euros
+    And the total amount is 100.00 euros
     And the confirmation message contains "standard@shop.com"

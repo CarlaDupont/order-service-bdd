@@ -7,5 +7,5 @@ Feature: Order for a VIP customer
     Then the order is accepted
     And the receipt contains product reference "P003"
     And the receipt contains quantity 2
-    And the total amount is 999.00 euros
+    And the total amount is 400.00 euros
     And the confirmation message contains "vip@shop.com"
